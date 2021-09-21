@@ -3,7 +3,6 @@ dependencies:
   - pip
   - pip:
     - d2l==0.17.0
-    - git+https://github.com/d2l-ai/d2l-book
     - torch==1.8.1+cu101
     - -f https://download.pytorch.org/whl/torch_stable.html
     - torchvision==0.9.1+cu101
