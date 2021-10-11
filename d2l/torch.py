@@ -437,6 +437,20 @@ def try_all_gpus():
     return devices if devices else [torch.device('cpu')]
 
 
+class MultiGPUs:
+    def __init__(self):
+        self.num_gpus = len(try_all_gpus())
+
+    def __enter__(self):
+        if self.num_gpus < 2:
+            warnings.warn('Code is skipped because at least two '
+                          f'GPUs are required but {self.num_gpus} GPU '
+                          'is found.')
+
+    def __exit__(self, *args):
+        return True
+
+
 # Defined in file: ./chapter_convolutional-neural-networks/conv-layer.md
 def corr2d(X, K):
     """Compute 2D cross-correlation."""
