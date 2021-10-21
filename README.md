@@ -1,1 +1,1 @@
-# d2l-pytorch-seychelles
+# d2l-pytorch-sagemaker-studio-lab
