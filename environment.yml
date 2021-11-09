@@ -1,9 +1,9 @@
 # To use:
-#   $ conda env create -f env.yml  # `mamba` works too for this command
+#   $ conda env create -f environment.yml
 #   $ conda activate d2l
 name: d2l
 dependencies:
-  - python=3.8
+  - python=3.9
   - pip
   - pip:
     - d2l==0.17.0
