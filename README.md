@@ -62,7 +62,9 @@ This book can be roughly divided into three parts
 preliminaries, deep learning techniques,
 and advanced topics with real world applications (as shown in the figure below).
 
-![Book structure](https://d2l.ai/_images/book-org.svg)
+<p align="center">
+  <img alt="Book structure" src="https://d2l.ai/_images/book-org.svg" />
+</p>
 
 
 * The first part (chapter 1-4) covers basics and preliminaries.
