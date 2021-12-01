@@ -307,7 +307,7 @@ and apply them to NLP tasks.
 
 
 * **Chapter 16:** [Generative Adversarial Networks](chapter_generative-adversarial-networks/index.ipynb)
-    * [Generative Adversarial Networks](gan.ipynb)
+    * [Generative Adversarial Networks](chapter_generative-adversarial-networks/gan.ipynb)
     * [Deep Convolutional Generative Adversarial Networks](chapter_generative-adversarial-networks/dcgan.ipynb)
 
 
