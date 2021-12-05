@@ -3,15 +3,15 @@
 The `d2l` environment contains required libraries for running all the D2L notebooks.
 
 To check whether the `d2l` kernel exists, you can open the terminal and enter the command `$ conda-env list`.
-If you don't see the `d2l` environment in your existing kernels in the above list, 
-you can change directory with the command: 
+If you don't see the `d2l` environment in your existing kernels in the above list,
+you can change directory with the command:
 
 `$ cd /home/studio-lab-user/d2l-pytorch-sagemaker-studio-lab`
 
 
 and create a new environment using:
 
-`$ conda env create --name d2l --file environment.yml` 
+`$ conda env create --name d2l --file environment.yml`
 
 
 
@@ -25,7 +25,7 @@ You can switch between CPU and GPU instances by clicking `Stop instance` and res
 
 # About This Book
 
-[Dive into Deep Learning (D2L)](https://www.d2l.ai/) is an open-source, interactive book that teaches the ideas, the mathematical theory, and the code that powers deep learning. It provides a comprehensive overview of deep learning principles and a state-of-the-art introduction to deep learning in computer vision and natural language processing.  
+[Dive into Deep Learning (D2L)](https://www.d2l.ai/) is an open-source, interactive book that teaches the ideas, the mathematical theory, and the code that powers deep learning. It provides a comprehensive overview of deep learning principles and a state-of-the-art introduction to deep learning in computer vision and natural language processing.
 
 D2L has been adopted for teaching by 300 universities from 55 countries, including:
 
@@ -44,20 +44,20 @@ no previous background in deep learning or machine learning is required.
 Fully explaining the methods of deep learning
 requires some mathematics and programming,
 but we will only assume that you come in with some basics,
-including modest amounts of linear algebra, 
+including modest amounts of linear algebra,
 calculus, probability, and Python programming.
 Just in case you forget the basics,
 the Appendix chapter *Mathematics for Deep Learning*
-provides a refresher 
-on most of the mathematics 
+provides a refresher
+on most of the mathematics
 you will find in this book.
-Most of the time, we will prioritize 
+Most of the time, we will prioritize
 intuition and ideas
 over mathematical rigor.
 
 ## Content and Structure
 
-This book can be roughly divided into three parts 
+This book can be roughly divided into three parts
 (corresponding to three different colors):
 preliminaries, deep learning techniques,
 and advanced topics with real world applications (as shown in the figure below).
@@ -68,48 +68,48 @@ and advanced topics with real world applications (as shown in the figure below).
 
 
 * The first part (chapter 1-4) covers basics and preliminaries.
-Chapter *1. Introduction* offers 
+Chapter *1. Introduction* offers
 an overview of deep learning.
-Next, Chapter *2. Preliminaries* 
+Next, Chapter *2. Preliminaries*
 teaches the prerequisites required
-for hands-on deep learning, 
+for hands-on deep learning,
 such as how to store and manipulate data,
-and how to apply various numerical operations 
-based on basic concepts from linear algebra, 
+and how to apply various numerical operations
+based on basic concepts from linear algebra,
 calculus, and probability.
-Then, Chapter *3. Linear Neural Networks* and 
-Chapter *4. Multilayer Perceptrons* 
-cover the most basic concepts 
+Then, Chapter *3. Linear Neural Networks* and
+Chapter *4. Multilayer Perceptrons*
+cover the most basic concepts
 and techniques in deep learning,
 including regression and classification;
 linear models and multilayer perceptrons;
 and overfitting and regularization.
 
 * The next six chapters focus on modern deep learning techniques.
-Chapter *5. Deep Learning Computation* describes 
-the key computational components 
+Chapter *5. Deep Learning Computation* describes
+the key computational components
 of deep learning systems
 and lays the groundwork
 for our subsequent implementations
 of more complex models.
-Next, Chapter *6. Convolutional Neural Networks* and 
-Chapter *7. Modern Convolutional Neural Networks* 
-demonstrate convolutional neural networks (CNNs), 
-powerful tools that form the backbone 
+Next, Chapter *6. Convolutional Neural Networks* and
+Chapter *7. Modern Convolutional Neural Networks*
+demonstrate convolutional neural networks (CNNs),
+powerful tools that form the backbone
 of most modern computer vision (CV) systems.
-Similarly, Chapter *8. Recurrent Neural Networks*  and 
-Chapter *9. Modern Recurrent Neural Networks* 
-illustrate recurrent neural networks (RNNs), 
-models that exploit sequential (e.g., temporal) 
+Similarly, Chapter *8. Recurrent Neural Networks*  and
+Chapter *9. Modern Recurrent Neural Networks*
+illustrate recurrent neural networks (RNNs),
+models that exploit sequential (e.g., temporal)
 structure in data and are commonly used
-for natural language processing (NLP) 
+for natural language processing (NLP)
 and time series prediction.
-In Chapter *10. Attention Mechanisms*, 
+In Chapter *10. Attention Mechanisms*,
 we introduce a relatively new class of models
-based on attention and transformer mechanisms, 
+based on attention and transformer mechanisms,
 which is the dominant architecture
 for most NLP tasks.
-These chapters will bring you up to speed 
+These chapters will bring you up to speed
 on the most powerful and general tools
 that are widely used by deep learning practitioners.
 
@@ -117,16 +117,16 @@ that are widely used by deep learning practitioners.
 First, in Chapter *11. Optimization Algorithms*,
 we discuss common optimization methods
 used to train deep learning models.
-The next Chapter *12. Computational Performance* 
+The next Chapter *12. Computational Performance*
 examines several key factors
-that influence the computational performance 
+that influence the computational performance
 of your deep learning code.
 In Chapter *13. Computer Vision*,
-we illustrate major applications 
+we illustrate major applications
 of deep learning in CV.
-In Chapter *14. Natural Language Processing: Pretraining* 
+In Chapter *14. Natural Language Processing: Pretraining*
 and Chapter *15. Natural Language Processing: Applications*,
-we show how to pretrain language representation models 
+we show how to pretrain language representation models
 and apply them to NLP tasks.
 
 
@@ -306,11 +306,6 @@ and apply them to NLP tasks.
     * [Natural Language Inference: Using Attention](chapter_natural-language-processing-applications/natural-language-inference-attention.ipynb)
     * [Fine-Tuning BERT for Sequence-Level and Token-Level Applications](chapter_natural-language-processing-applications/finetuning-bert.ipynb)
     * [Natural Language Inference: Fine-Tuning BERT](chapter_natural-language-processing-applications/natural-language-inference-bert.ipynb)
-
-
-* **Chapter 16:** [Generative Adversarial Networks](chapter_generative-adversarial-networks/index.ipynb)
-    * [Generative Adversarial Networks](chapter_generative-adversarial-networks/gan.ipynb)
-    * [Deep Convolutional Generative Adversarial Networks](chapter_generative-adversarial-networks/dcgan.ipynb)
 
 
 ## Appendix
