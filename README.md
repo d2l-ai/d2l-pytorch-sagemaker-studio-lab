@@ -2,7 +2,7 @@
 
 The `d2l` environment contains required libraries for running all the D2L notebooks.
 
-To check whether the `d2l` kernel exists, you can open the terminal and enter the command `$ conda-env list`.
+To check whether the `d2l` kernel exists, you can open the terminal (click "+" on the top left) and enter the command `$ conda-env list`.
 If you don't see the `d2l` environment in your existing kernels in the above list,
 you can change directory with the command:
 
